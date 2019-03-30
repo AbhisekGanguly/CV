@@ -2,18 +2,23 @@
 <html lang="en" dir="ltr">
 
   <head>
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1083689391027965952/9gYcYKP8_400x400.jpg">
     <meta charset="utf-8">
     <title>Contact form</title>
+    <link rel="stylesheet" href="css\style.css" />
   </head>
 
   <body bgcolor="aliceblue">
+    <center>
+      <h2>FILL THIS FORM AND I'LL GET IN TOUCH WITH YOU.</h2>
+    </center>
     <form method="post" action="index.html">
       <table align="center">
         <tr>
           <td>
             <label>Enter Your Name</label>
           </td>
-          <td>
+          <td class="td1">
             <input type="text" required name="" value="">
           </td>
         </tr>
@@ -21,7 +26,7 @@
           <td>
             <label for="">Your Phone No.</label>
           </td>
-          <td>
+          <td class="td1">
             <input type="number" required name="" value="">
           </td>
         </tr>
@@ -31,13 +36,18 @@
           </td>
         </tr>
         <tr>
-          <td>
-            <textarea name="name" required></textarea>
+          <td colspan="2">
+            <textarea name="name" placeholder="How can I help you?" cols="40" rows="10" required></textarea>
           </td>
         </tr>
         <tr>
-          <td>
+          <td align="center" colspan="2">
             <button type="submit" name="button">SUBMIT</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <hr>
           </td>
         </tr>
       </table>
