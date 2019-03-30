@@ -17,3 +17,8 @@ h1 , h4 , h2{
 .td1{
   padding-left: 20px;
 }
+
+a{
+  text-decoration: none;
+  color:#8158fc;
+}
